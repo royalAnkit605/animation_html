@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            div
+            {
+                position: relative;
+                top: 300px;
+                left: 500px;
+            }
+            div>span
+            {
+                background-color: red;
+                padding: 40px;
+                margin: 20px;
+                border-radius: 100px;
+                position: relative;
+            }
+            div #a
+            {
+                animation: ak 1s linear 0.1s infinite normal;
+                
+            }
+           
+
+           div #b
+            {
+                animation: ak 1s linear 0.5s infinite normal;
+                
+            }
+            div #c
+            {
+                animation: ak 1s linear 0.6s infinite normal;
+            }
+            div #d
+            {
+                animation: ak 1s linear 0.7s infinite normal;
+            }
+            div #e
+            {
+                animation: ak 1s linear 0.8s infinite normal;
+            }
+
+            @keyframes ak
+            {
+                0%,100%
+                {
+                    top: -50px;
+                    transform: scale(1.5,1.5);
+                   
+                }
+                
+                50%
+                {
+                    top: 50px;
+                    transform: scale(1,1);
+                }
+               
+         </style>
+
+    </head>
+    <body>
+        <div>
+            <span id="a">A</span>
+            <span id="b">N</span>
+            <span id="c">K</span>
+            <span id="d">I</span>
+            <span id="e">T</span>
+        </div>
+    </body>
+</html>

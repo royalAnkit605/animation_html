@@ -1,0 +1,23 @@
+body
+{
+    font-style: oblique;
+    background-color: chocolate;
+}
+#one
+{
+    border: cyan;
+    border-style: groove;
+}
+#two
+{
+    border: 2px;
+    border-top-width: medium;
+    border-style: dotted;
+    color: bisque;
+}
+img
+{
+    box-sizing: border-box;
+    image-resolution: 1000px;
+
+}

@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <style>
+            div
+            {
+                box-shadow: 0 0 10px black;
+                width: 500px;
+                height: 600px;
+                margin: 10px auto;
+                border-radius: 20px;
+                overflow: hidden;
+                position: relative;
+            }
+            div:hover
+            {
+                cursor:pointer
+            }
+            div>img
+            {
+                width: inherit;
+                height: inherit;
+                border: 0 0 10px black;
+                filter: grayscale(100%);
+                
+                transition: all 1s linear 0s;
+            }
+            div:hover>img
+            {
+                filter: grayscale(0%);
+                transform: translate(-100%);
+            }
+            div>p
+            {
+                position: absolute;
+                top: 10px;
+                padding: 5px;
+                transition: all 1s linear 0s;
+            }
+            div:hover>p
+            {
+                background-color: brown;
+                transform: translateX(0px);
+            }
+         
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <img src="D:\MESSI WC 2022\Images\20221219_004711.jpg">
+                <h3>Messi</h3>
+                <p>Messi Is Greatest Player Of all Time. He Won the most number of trophies
+                in his entire career.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>ball</title>
+        <style>
+            div
+            {
+            position: relative;
+            top: 380px;
+            left: 510px;
+            }
+            div>span
+            {
+                background: linear-gradient(red,black,blue);
+                padding: 50px;
+                border-radius: 100px;
+                position: relative;
+            }
+            span
+            {
+                animation: ak 1s linear 0.5s infinite normal;
+            }
+            @keyframes ak 
+            {
+                0%
+                {
+                    top: -50px;
+                    transform: scale(1.5,1.5);
+                }
+                25%
+                {
+                    top: 40px;
+                    transform: scale(1,1);
+                }
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div>
+       <span>ball</span>
+        </div>
+    </body>
+</html>

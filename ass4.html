@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>css registerform</title>
+    <style>
+        body
+        {
+         background: linear-gradient(to right,orange,white,gray,skyblue);  
+         background-image: "D:\Coorg\IMG20211001114608.jpg";
+         background-size:cover;
+         text-align: center;
+        }
+       #reg-from
+       {
+        background: linear-gradient(to right,orange,white,gray,skyblue);
+        padding: 20px;
+        width: 350px;
+        text-align: center;
+        margin: 100px auto;
+       }
+    .from-group input[type="text"],
+    .from-group input[type="password"],
+    .from-group textarea,
+    .from-group select
+     {
+    width:350px;
+    height: 30px;
+    margin-bottom:30px;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    }
+     
+.from-group select
+{
+    width:350px;
+}
+.from-group textarea
+{
+    width: 300px;
+}
+#submit
+{
+text-align:center;
+background: linear-gradient(to right,orange,white,gray,pink,black);
+border:seashell;
+border-radius: 15px 0px  10px;
+width: 350px;
+padding:2px;
+}
+#submit:hover
+{
+ box-shadow:0px 0px 10px blue;
+}
+    </style>
+</head>
+<body>
+    <div id="reg-from">
+        <div id="icon">
+        <i class="fa fa-circle-user"></i>
+    </div>
+        <div class="from-group">
+        <input type="text" name=""placeholder="Enter Username">
+    </div>
+        <div class="from-group">
+        <input type="text" name=""placeholder="Enter Email">
+    </div>
+        <div class="from-group">
+        <input type="password" name=""placeholder="Enter Password">
+    </div>
+        <div class="from-group">
+        <input type="password" name=""placeholder="Confirm password">
+    </div>
+    <div class="from-group">
+        <select ><option>select designation</option>
+        <option> Software Engineer</option>
+        <option>Assistant Manager</option>
+        <option>Software Tester</option>
+        <option>Technical Analyst</option>
+    </select>
+    </div>
+        <div class="from-group">
+        <input type="text"placeholder="Description">
+    </div>
+    <div id="submit">
+        <input type="submit">
+    </div>
+    </div>
+</body>
+</html>

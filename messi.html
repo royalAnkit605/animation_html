@@ -1,0 +1,44 @@
+<html>
+    <head>
+      <style>
+        #one
+        {
+            box-shadow: 0 0 10px;
+            width: 500px;
+            height: 600px;
+            margin: 100px auto;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        #one>img
+        {
+            width: inherit;
+            height: inherit;
+            border: 0 0 10px black;
+            filter: grayscale(100%);
+            transition: all 1s linear 0s;
+           }
+           #one:hover>img
+           {
+            cursor: pointer;
+            filter: grayscale(0%);
+            transform: translate(-100%);
+           }
+           #two>img
+           {
+            width: inherit;
+            height: inherit;
+           }
+      </style>
+    </head>
+    <body>
+        <div id="one">
+            <img src="D:\MESSI WC 2022\Images\20221219_005344.jpg" alt="">
+            <div id="two">
+                <img src="D:\MESSI WC 2022\Images\20221219_005344.jpg" alt="">
+
+                
+            </div>
+        </div>
+    </body>
+</html>
